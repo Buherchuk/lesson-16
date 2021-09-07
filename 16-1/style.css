@@ -1,0 +1,25 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    /* height: 1000px; */
+}
+.slide-text{
+    display: flex;
+    justify-content: center;
+}
+.left-slide{
+    width: 10%;
+    border-bottom: 2px solid tomato;
+}
+img{
+    align-self: flex-end;
+}
+h2{
+    cursor: pointer;
+}
+h2:hover{
+    color: tomato;
+}
+div{
+    margin: 10% 0;
+}
